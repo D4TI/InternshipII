@@ -129,13 +129,13 @@ contoh:
 	\end{table}
 	```
 
-12. untuk rumus gunakan tag equation
+12. untuk rumus gunakan tag equation dan di referensikan pada kalimat dengan tag ref sesuai labelnya
 	contoh:
 	```sh
 	Rumus bola:
 
-	a) Luas permukaan
-	 \begin{equation}
+	a) Luas permukaan dijelaskan pada rumus \ref{eq:1}:
+	 \begin{equation}\label{eq:1}
 	     L = 4 \pi r^2 \,
 	\end{equation}
 	b) Volume
