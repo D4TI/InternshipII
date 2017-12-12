@@ -134,12 +134,12 @@ contoh:
 	```sh
 	Rumus bola:
 
-	a) Luas permukaan dijelaskan pada rumus \ref{eq:1}:
+	a) Luas permukaan dijelaskan pada rumus \ref{eq:1}
 	 \begin{equation}\label{eq:1}
 	     L = 4 \pi r^2 \,
 	\end{equation}
-	b) Volume
-	 \begin{equation}
+	b) Volume dijelaskan pada rumus \ref{eq:2}
+	 \begin{equation}\label{eq:2}
 	     V = \frac{4}{3}\pi r^3
 	\end{equation}
 	```
