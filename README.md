@@ -55,7 +55,7 @@ Format Proposal dan Laporan Intership II, Aturan yang harus dipatuhi
 
 	\subsection{Ptolemy's}
 	Ptolemy's diduga membuat peta pada abad ke 2
-```	
+	```	
 
 9. untuk list dan nomor gunakan enumerate atau itemize
 	contoh :
@@ -94,7 +94,7 @@ Format Proposal dan Laporan Intership II, Aturan yang harus dipatuhi
 	This is the first item in the itemized list.
 	This is the first item in the itemized list.
 	\end{itemize}
-```
+	```
 10. spesial karakter menggunakan tanda \ didepannya
 	contoh :
 	```sh
