@@ -15,16 +15,16 @@ Format Proposal dan Laporan Intership II, Aturan yang harus dipatuhi
 
 6. Gambar disebutkan di dalam artikel dengan format sesuai labelnya yaitu \ref{labelgambar}
    dan gambar diselipkan dengan menambahkan blok sintaks :
-```sh
+	```sh
 	\begin{figure}[ht]
 	\centerline{\includegraphics[width=1\textwidth]{figures/namagambar.JPG}}
 	\caption{penjelasan keterangan gambar.}
 	\label{labelgambar}
 	\end{figure}
-```
+	
 	Contoh :
 	Pada gambar \ref{labelgambar} dijelaskan bahwa sistem operasi memiliki 3 versi.
-	
+	```
 7. Referensi disebutkan dengan menyebutkan nama di dalam file bibtex No.4 
    contoh :
 	Jika Bibtex :
@@ -113,21 +113,21 @@ Format Proposal dan Laporan Intership II, Aturan yang harus dipatuhi
 	
 11. untuk tabel gunakan table , dan jangan lupa tabel di referensikan pada kalimat berdasarkan labelnya.
 contoh:
-```sh
-ini merupakan contoh tabel \ref{table:contoh} ukuran kecil.
-\begin{table}[h]
-\caption{Small Table}
-\centering
-\begin{tabular}{ccc}
-\hline
-one&two&three\\
-\hline
-C&D&E\\
-\hline
-\end{tabular}
-\label{table:contoh}
-\end{table}
-```
+	```sh
+	ini merupakan contoh tabel \ref{table:contoh} ukuran kecil.
+	\begin{table}[h]
+	\caption{Small Table}
+	\centering
+	\begin{tabular}{ccc}
+	\hline
+	one&two&three\\
+	\hline
+	C&D&E\\
+	\hline
+	\end{tabular}
+	\label{table:contoh}
+	\end{table}
+	```
 
 12. untuk rumus gunakan tag equation
 	contoh:
@@ -144,7 +144,7 @@ C&D&E\\
 	\end{equation}
 	```
 13. untuk kode program menggunakan verbatim
-```sh
+	```sh
 	\begin{verbatim}
 	a = "anu"
 	b = "itu"
