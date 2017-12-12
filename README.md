@@ -15,17 +15,20 @@ Format Proposal dan Laporan Intership II, Aturan yang harus dipatuhi
 
 6. Gambar disebutkan di dalam artikel dengan format sesuai labelnya yaitu \ref{labelgambar}
    dan gambar diselipkan dengan menambahkan blok sintaks :
+```sh
 	\begin{figure}[ht]
 	\centerline{\includegraphics[width=1\textwidth]{figures/namagambar.JPG}}
 	\caption{penjelasan keterangan gambar.}
 	\label{labelgambar}
 	\end{figure}
+```
 	Contoh :
 	Pada gambar \ref{labelgambar} dijelaskan bahwa sistem operasi memiliki 3 versi.
 	
 7. Referensi disebutkan dengan menyebutkan nama di dalam file bibtex No.4 
    contoh :
 	Jika Bibtex :
+	```sh
 	@inproceedings{ganapathi2006windows,
 	  title={Windows XP Kernel Crash Analysis.},
 	  author={Ganapathi, Archana and Ganapathi, Viji and Patterson, David A},
@@ -34,6 +37,7 @@ Format Proposal dan Laporan Intership II, Aturan yang harus dipatuhi
 	  pages={49--159},
 	  year={2006}
 	}
+	```
 	Maka artikel :
 	Dalam sebuah artikel dari Ganapathi yang menyebutkan bahwa komputasi 
 	adalah keniscayan \cite{ganapathi2006windows}.
@@ -44,16 +48,18 @@ Format Proposal dan Laporan Intership II, Aturan yang harus dipatuhi
 	judul sub sub bab ditulis dengan \subsection{judul sub sub bab}
 	judul sub sub sub bab ditulis dengan \subsubsection{Judul sub sub sub bab}
 	contoh :
+	```sh
 	\section{Sejarah Peta}
 	Perkembangan peta dunia tidak luput dari para ahli geografi dan kartografi. Peta dunia yang populer pada saat ini merupkan kontribusi dari para 
 	pembuat peta sebelumnya
 
 	\subsection{Ptolemy's}
 	Ptolemy's diduga membuat peta pada abad ke 2
-	
+```	
 
 9. untuk list dan nomor gunakan enumerate atau itemize
 	contoh :
+	```sh
 	berikut nama anggota kelompok
 	\begin{enumerate}
 	\item darso
@@ -88,9 +94,10 @@ Format Proposal dan Laporan Intership II, Aturan yang harus dipatuhi
 	This is the first item in the itemized list.
 	This is the first item in the itemized list.
 	\end{itemize}
-
+```
 10. spesial karakter menggunakan tanda \ didepannya
 	contoh :
+	```sh
 	\& 
 	\% 
 	\$ 
@@ -102,10 +109,11 @@ Format Proposal dan Laporan Intership II, Aturan yang harus dipatuhi
 	jika spesial karakter menjadi banyak atau satu baris gunakan verb
 	contoh :
 	\verb|%$'%&$&'%'%'%&'%|
+	```
 	
 11. untuk tabel gunakan table , dan jangan lupa tabel di referensikan pada kalimat berdasarkan labelnya.
 contoh:
-
+```sh
 ini merupakan contoh tabel \ref{table:contoh} ukuran kecil.
 \begin{table}[h]
 \caption{Small Table}
@@ -119,9 +127,11 @@ C&D&E\\
 \end{tabular}
 \label{table:contoh}
 \end{table}
+```
 
 12. untuk rumus gunakan tag equation
 	contoh:
+	```sh
 	Rumus bola:
 
 	a) Luas permukaan
@@ -132,11 +142,13 @@ C&D&E\\
 	 \begin{equation}
 	     V = \frac{4}{3}\pi r^3
 	\end{equation}
-	
+	```
 13. untuk kode program menggunakan verbatim
+```sh
 	\begin{verbatim}
 	a = "anu"
 	b = "itu"
 	c = a + b
 	print(c) 
 	\end{verbatim}
+	```
