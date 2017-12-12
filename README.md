@@ -1,5 +1,7 @@
 # InternshipII
-Format Proposal dan Laporan Intership II, Aturan yang harus dipatuhi
+Format Proposal dan Laporan Intership II, 
+Contoh hasil bisa dilihat di https://www.sharelatex.com/read/nqyhkwynzcbv
+Aturan yang harus dipatuhi
 
 1. file disimpan dalam format ber ekstensi .tex per chapter masing2
 
